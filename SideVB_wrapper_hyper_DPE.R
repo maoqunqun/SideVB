@@ -79,7 +79,7 @@ SideVB_wrapper_hyper_DPE <- function(
   # ---- DPE controls ----
   dpe_exponents = 0:6,
   dpe_rest_variance = 1/2,
-  dpe_update_prior_mean = TRUE,
+  # dpe_update_prior_mean = TRUE,
   dpe_tol = tol,
   dpe_metric = c("entropy", "max_abs_gamma", "max_abs_theta"),
   # ---- VB-in-DPE controls (match core) ----
